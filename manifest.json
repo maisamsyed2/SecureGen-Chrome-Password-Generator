@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Password Generator",
+    "version": "1.0",
+    "description": "Generate a random password when the extension is clicked.",
+    "permissions": [
+      "activeTab",
+      "clipboardWrite"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "128": "icon128.png"
+      }
+    }
+  }
+  
